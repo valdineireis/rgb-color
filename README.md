@@ -13,4 +13,6 @@ Trabalho Prático do Módulo 1, do bootcamp Desenvolvedor Full Stack, oferecido 
 
 ## Resultado da implementação
 
+[Visualizar online](http://valdineireis.com.br/rgb-color/)
+
 <img src="./img/rgbColor.gif" alt="RGB Color">
