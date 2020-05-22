@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trabalho Prático do Módulo 1</title>
+  <link rel="shortcut icon" type="image/x-icon"
+    href="https://raw.githubusercontent.com/valdineireis/valdineireis.github.io/master/favicon.ico" />
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <main>
+    <h1>
+      Visualização de Cores a partir da Escala
+      <span class="red">R</span>
+      <span class="green">G</span>
+      <span class="blue">B</span>
+    </h1>
+
+    <label for="inputR">
+      <span class="red">R (Red - Vermelho):</span>
+      <input type="range" name="inputRangeR" id="inputRangeR" min="0" max="255" tabindex="1" class="inputRange" />
+      <input type="text" name="inputCodeR" id="inputCodeR" readonly class="viewCode" />
+    </label>
+
+    <label for="inputG">
+      <span class="green">G (Green - Verde):</span>
+      <input type="range" name="inputRangeG" id="inputRangeG" min="0" max="255" tabindex="2" class="inputRange" />
+      <input type="text" name="inputCodeG" id="inputCodeG" readonly class="viewCode" />
+    </label>
+
+    <label for="inputB">
+      <span class="blue">B (Blue - Azul):</span>
+      <input type="range" name="inputRangeB" id="inputRangeB" min="0" max="255" tabindex="3" class="inputRange" />
+      <input type="text" name="inputCodeB" id="inputCodeB" readonly class="viewCode" />
+    </label>
+
+    <div id="boxColorPreview"></div>
+
+    <footer>
+      IGTI - Bootcamp Desenvolvedor Full Stack<br />
+      Desenvolvido por
+      <a href="http://valdineireis.com.br/" target="_blank">Valdinei Reis</a>
+    </footer>
+  </main>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
